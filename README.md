@@ -121,13 +121,13 @@ Once we submit our Google Tag Manager container the functionality of our cookies
 
 ### 12. Add CSS style to the Cookies Modal
 
-Add the **cookies.css** file from Poly Cookies to your website's <head>.
+Add the **cookies.css** file from Poly Cookies to your website's `<head>`.
             
-<link rel="stylesheet" href="cookies.css" type="text/css">       
+`<link rel="stylesheet" href="cookies.css" type="text/css">`       
           
 Make sure all files (like the thumbs-up icons) are in the correct directory path.
 
-By default, the cookies modal features a light theme. However, we can change it to a dark theme by adding class="dark-theme" to <div id="cookies-modal"> in the Cookies Modal HTML tag from GTM.
+By default, the cookies modal features a light theme. However, we can change it to a dark theme by adding `class="dark-theme"` to `<div id="cookies-modal">` in the Cookies Modal HTML tag from GTM.
 
 ### 13. Set all tracking tags to trigger after accepted consent
 
