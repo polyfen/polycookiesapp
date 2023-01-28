@@ -53,7 +53,7 @@ Once you're in the Workspace of your desired Container, we'll go to "Tags" and c
 
 We'll name it "Default Consent" so that Google knows that we're not having intrusive behavior with the user's browser once he or she lands on our webpage.
 
-In the Tag Type, we'll select the "Consent Mode" tag we've uploaded with the tempalte file.
+In the Tag Type, we'll select the "Consent Mode" tag we've uploaded with the template file.
 
 On the Default Settings, we'll add a row to specify that all browser privacy permissions are denied, except for any related to the Functionality Storage, which should be allowed.
 
