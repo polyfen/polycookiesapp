@@ -95,7 +95,7 @@ As the trigger, We'll select the new "Clicked on Accept Cookies" we created and 
 
 ### 9. Save the consent acceptance with a cookie
 
-Create a new custom HTML tag named "Save Consent 1st party Cookie" with the following content.
+Create a new custom HTML tag named "Save Consent 1st party Cookie" with the code included in the **cookies-consent.js** file.
                   
 Make sure you check the box with the label "Support document.write".
 
@@ -121,7 +121,7 @@ Once we submit our Google Tag Manager container the functionality of our cookies
 
 ### 12. Add CSS style to the Cookies Modal
 
-Add the "cookies.css" file from Poly Cookies to your website's <head>.
+Add the **cookies.css** file from Poly Cookies to your website's <head>.
             
 <link rel="stylesheet" href="cookies.css" type="text/css">       
           
