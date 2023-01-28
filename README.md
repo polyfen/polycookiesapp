@@ -17,7 +17,7 @@ Help us keep polycookies.com running and growing by donating any amount you'd li
 - [The Poly Group](https://thepolygroup.co)
 
 
-## Documentation
+## Installation Guide
 
 ### 1. Download the Poly Cookies source files
 
