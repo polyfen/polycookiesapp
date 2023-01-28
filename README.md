@@ -77,6 +77,8 @@ We'll set up "All pages" as the trigger.
 
 ### 7. Create a Trigger based on clicking the Accept button
 
+In the Variables section of Google Tag Manager, we'll click on the "configure" button to set up a new Built-In Variable, and we'll make sure that "Click ID" is checked.
+
 We'll go to the Triggers page and create a new one named "Clicked on Accept Cookies".
 
 Select the "Click - All Elements" trigger type.
