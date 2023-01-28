@@ -1,0 +1,181 @@
+/*///////////// COOKIES MODAL START /////////////*/
+
+  div#cookies-modal-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  div#cookies-modal {
+    position: fixed;
+    bottom: 0px;
+    width: calc(100% - 10px);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex !important;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(8px);
+    z-index: 10;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border-top: 4px solid rgba(0, 0, 0, 0.18);
+  }
+ 
+  div#cookies-title {
+    color: #000;
+  }
+
+  div#cookies-modal a {
+    color: #000;
+    border-bottom: 3px dotted #000;
+  }
+
+  div#cookies-modal a:hover {
+    color: #000;
+    border-bottom: 3px solid #000;
+  }
+ 
+  div#cookies-modal-buttons {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  div#cookies-modal button {
+    padding: 5px 25px 4px;
+    border-radius: 4px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    float: right;
+    font-size: 0.9rem;
+    border-width: 1px;
+    opacity: 0.8;
+    border: 2px solid #000;
+    background: rgba(255, 255, 255, 0.508);
+    color: #000;
+    height: 36px;
+  }
+
+  div#cookies-modal button:first-child {
+    margin-left: 6px;
+  }
+
+  div#cookies-modal button#accept-cookies-button {
+    border-color: #00000057;
+  }
+
+  button#accept-cookies-button:before {
+    background-image: url('imgs/thumbs-up-regular.svg');
+    margin-left: -10px;
+    margin-right: 7px;
+    background-size: 20px auto;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    margin-bottom: -3px;
+  }
+
+  button#accept-cookies-button:hover:before {
+    background-image: url('imgs/thumbs-up-solid.svg');
+  }
+
+  div#cookies-modal button#reject-cookies-button {
+    opacity: 0.6;
+    border-color: #00000047;
+  }
+  
+  div#cookies-modal button:hover, div#cookies-modal button#reject-cookies-button:hover {
+    background:white;
+    color: #000;
+    border-color: #00000071;
+    box-shadow: none;
+    opacity: 1;
+  }  
+  
+  div#cookies-modal.cookies-d-none {
+    display: none !important;
+  }
+
+  @media (min-width: 768px) {
+  
+    div#cookies-modal {
+      background: rgba(255, 255, 255, 0.65);
+      justify-content: space-between;
+      bottom: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.18);
+    }
+  
+    div#cookies-modal-buttons {
+      margin: 0;
+    }
+  
+  }
+
+  /*///////////// DARK MODE START /////////////*/
+
+  
+
+  div#cookies-modal.dark-theme {
+    background: rgba(0, 0, 0, 0.8);
+    border-top: 4px solid rgba(0, 0, 0, 1);
+  }
+
+  div#cookies-modal.dark-theme div#cookies-title, div#cookies-modal.dark-theme a, div#cookies-modal.dark-theme a:hover {
+    color: #fff;
+  }
+
+  div#cookies-modal.dark-theme button {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    border-color: #fff;
+  }
+
+  div#cookies-modal.dark-theme button:hover, div#cookies-modal.dark-theme button#reject-cookies-button:hover {
+    background:rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  div#cookies-modal.dark-theme button#accept-cookies-button:before {
+    background-image: url('imgs/thumbs-up-regular-white.svg');
+  }
+
+  div#cookies-modal.dark-theme button#accept-cookies-button:hover:before {
+    background-image: url('imgs/thumbs-up-solid-white.svg');
+  }
+
+  @media (min-width: 768px) {
+
+    div#cookies-modal.dark-theme {
+      background: rgba(0, 0, 0, 0.6);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+    }
+
+  }
+
+  /*///////////// DARK MODE END /////////////*/
+
+  /*///////////// CUSTOMIZE TYPOGRAPHY START /////////////*/
+
+  div#cookies-modal-container, div#cookies-modal-container div, div#cookies-modal-container a, div#cookies-modal-container button {
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  }
+
+  /*///////////// CUSTOMIZE TYPOGRAPHY END /////////////*/
+
+  /*///////////// CUSTOMIZE COLORS START /////////////*/
+  
+  div#cookies-modal a, div#cookies-modal a:hover {
+    border-color: #bfa290;
+  }
+
+  div#cookies-modal button#accept-cookies-button {
+    background: #bfa290;
+  }
+
+  /*///////////// CUSTOMIZE COLORS END /////////////*/
+  
+  /*///////////// COOKIES MODAL END /////////////*/
