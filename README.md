@@ -69,7 +69,7 @@ We'll set the Cookie Name to "consentAccepted" and click on "Save".
 
 ### 6. Add the Cookies Modal as a custom HTML Tag
 
-You can either create a new HTML, or you can use the template we've provided for you.
+You can either create a new HTML, or you can use the template we've provided for you in the file cookies-modal.html.
         
 Just replace the link "#YOUR-PRIVACY-POLICY-PAGE" with your privacy policy's page URL. If you don't have a privacy's policy page yet, you can set one up for free using a privacy policy generator, like getterms.io. We have no affiliation with GetTerms and you can use any other privacy policy generator or create a custom one consulting a legal expert.
 
