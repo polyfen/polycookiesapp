@@ -8,13 +8,11 @@
   div#cookies-modal {
     position: fixed;
     bottom: 0px;
-    width: calc(100% - 10px);
     max-width: 900px;
     margin: 0 auto;
     display: flex !important;
     background: rgba(255, 255, 255, 0.8);
     padding: 10px 20px;
-    border-radius: 8px;
     backdrop-filter: blur(8px);
     z-index: 10;
     flex-direction: row;
@@ -107,6 +105,8 @@
       justify-content: space-between;
       bottom: 20px;
       border: 1px solid rgba(0, 0, 0, 0.18);
+      width: calc(100% - 10px);
+      border-radius: 8px;
     }
   
     div#cookies-modal-buttons {
@@ -131,7 +131,7 @@
   div#cookies-modal.dark-theme button {
     color: #fff;
     background: rgba(0, 0, 0, 0.4);
-    border-color: #fff;
+    border-color: #00000047;
   }
 
   div#cookies-modal.dark-theme button:hover, div#cookies-modal.dark-theme button#reject-cookies-button:hover {
