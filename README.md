@@ -123,7 +123,9 @@ Once we submit our Google Tag Manager container the functionality of our cookies
 
 ### 12. Add CSS style to the Cookies Modal
 
-Add the **cookies.css** file from Poly Cookies to your website's `<head>`.
+If you're using a platform like Wordpress, Squarespace, or Wix, it might not be easy for you to upload the custom CSS file and the images. In that case copy the styles from the file **cookies-for-cms.html** and paste it in the "Cookies Modal" tag from GTM above the existing code.
+
+If you're not using a platform like Wordpres, Squarespace or Wix, you can continue by adding the **cookies.css** file from Poly Cookies to your website's `<head>`.
             
 `<link rel="stylesheet" href="cookies.css" type="text/css">`       
           
