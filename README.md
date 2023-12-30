@@ -8,13 +8,13 @@
 
 Help us keep polycookies.com running and growing by donating any amount you'd like. Every cent helps!
 
-[Send a Donation](https://donate.stripe.com/9AQ5lgeoDef2b1CdQQ)
+[Send a Donation](https://donate.stripe.com/cN27ur9gH36R8dW5kl)
 
 
 ## Authors
 
 - [Boris Hrncic](https://boris.hr)
-- [The Poly Group](https://thepolygroup.co)
+- [The Polyfen Group](https://thepolyfengroup.com)
 
 
 ## Installation Guide
